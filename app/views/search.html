@@ -1,0 +1,10 @@
+<div>
+  <search></search>
+  <table class="saved-table">
+    <tr class="table-row" ng-repeat="o in options">
+      <td ng-click="go($index)"><b>{{o.name}}</b></td>
+      <td ng-click="go($index)">{{o.address}}</td>
+      <td ng-class="{'save-success': o.saved}"> <i ng-click="save($index)"class="fa fa-star"></i> </td>
+    </tr>
+  </table>
+</div>

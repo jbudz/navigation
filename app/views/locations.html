@@ -1,0 +1,13 @@
+<div>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+    <input type="text" class="search form-control" ng-model="search.$">
+  </div>
+  <table class="saved-table">
+    <tr class="table-row" ng-repeat="loc in locations | filter:search">
+      <td ng-click="go($index)"><b>{{loc.name}}</b></td>
+      <td ng-click="go($index)">{{loc.address}}</td>
+      <td ng-click="remove($index)"><i class="fa fa-times"></i></td>
+    </tr>
+  </table>
+</div>
