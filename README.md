@@ -1,6 +1,6 @@
 Simple Navigator
 ======
-Navigation by coordinates.  Works without data/wireless if you can get a GPS lock.
+Navigation by coordinates.  Works without data and wireless if you can get a GPS lock.
 
 Install
 ------
@@ -21,3 +21,7 @@ grunt build
 Other
 ------
 * Add ```<preference name="Orientation" value="portrait" />``` to config.xml
+
+License
+------
+MIT
