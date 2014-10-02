@@ -12,7 +12,7 @@ cordova platform add android
 cordova plugin add org.apache.cordova.device-orientation
 cordova plugin add org.apache.cordova.geolocation
 git clone git@github.com/jbudz/navigation.git
-cd simple-navigator
+mv navigation pre-build && cd pre-build
 bower install
 npm install
 grunt build
